@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import dev from "../dev";
 import { Link } from 'react-router-dom';
 
-function Header() {
+function Footer() {
 
     useEffect(() => {
 
@@ -10,27 +10,19 @@ function Header() {
 
     return (
         <>
-            <header className="navbar navbar-expand-lg fixed-top text-light bg-dark py-0 lh-1" data-bs-theme="dark">
+            <footer className="navbar navbar-expand-lg  w-100 text-light bg-dark py-0 lh-1" data-bs-theme="dark">
                 <div className="container">
 
                     <nav className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav navbar-nav-scroll mx-auto align-items-center gap-4" style={{ "--ar-scroll-height": "520px;" }}>
+                        <ul className="navbar-nav navbar-nav-scroll me-auto align-items-center gap-4" style={{ "--ar-scroll-height": "520px;" }}>
                             <li className="nav-item ">
                                 <Link className="nav-link active" to="/" >
-                                    Home
-                                </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link 
-                                    className="btn btn-lg btn-danger w-100 text-uppercase fw-semibold rounded-0" 
-                                    to="/" 
-                                >
-                                    Play
+                                    Um link
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/">
-                                    Download
+                                    Outro link
                                 </Link>
                             </li>
                         </ul>
@@ -43,7 +35,7 @@ function Header() {
                     </nav>
 
                 </div>
-            </header>
+            </footer>
 
             {/* Spacer */}
             <div className="py-5">
@@ -54,4 +46,4 @@ function Header() {
 
 }
 
-export default Header;
+export default Footer;

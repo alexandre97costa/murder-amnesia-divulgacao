@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import dev from "./dev";
 
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 
 function App() {
 
@@ -15,14 +16,16 @@ function App() {
 	}, []);
 
 	return (
-		<div className="text-bg-dark vh-100">
-		<div className="container">
-			<Header/>
+		<div className="vh-100 ">
+			<div className="container ">
+				<Header />
 
-			<div className="row text-bg-light">
-			a
+				<div className="row text-bg-light ">
+					a<br/>
+				</div>
+
+				<Footer />
 			</div>
-		</div>
 		</div>
 	);
 }

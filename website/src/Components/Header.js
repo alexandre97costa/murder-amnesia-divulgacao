@@ -40,6 +40,14 @@ function Header() {
                                         Play!
                                     </Link>
                                 </li>
+                                <li className="nav-item ">
+                                    <div className="vr py-3"></div>
+                                </li>
+                                <li className="nav-item ">
+                                    <a className="nav-link" href="https://github.com/alexandre97costa/murder-amnesia" target="_blank" rel="noopener noreferrer" >
+                                        <i className="bi bi-github"></i>
+                                    </a>
+                                </li>
                             </ul>
 
                             <div className="d-sm-none p-3 mt-n3">

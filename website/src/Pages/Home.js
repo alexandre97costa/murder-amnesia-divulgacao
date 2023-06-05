@@ -13,8 +13,20 @@ function Home() {
 			<div className="container ">
 				<Header />
 
-				<div className="row text-bg-light ">
-					a<br/>
+				<div className="row">
+					video aqui
+				</div>
+
+				<div className="row">
+					História
+				</div>
+
+				<div className="row">
+					Objetivos
+				</div>
+
+				<div className="row">
+					Download
 				</div>
 
 				<Footer />

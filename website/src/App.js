@@ -1,8 +1,13 @@
 import React, { useEffect } from "react";
+import { Navigate, BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import dev from "./dev";
 
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+
+import Home from "./Pages/Home";
+import Play from "./Pages/Play";
+import Download from "./Pages/Download";
 
 function App() {
 
@@ -16,17 +21,13 @@ function App() {
 	}, []);
 
 	return (
-		<div className="vh-100 ">
-			<div className="container ">
-				<Header />
-
-				<div className="row text-bg-light ">
-					a<br/>
-				</div>
-
-				<Footer />
-			</div>
-		</div>
+		<BrowserRouter>
+			<Routes>
+				<Route exact path="/" element={<Home/>} />
+				<Route path="/play" element={<Play/>} />
+				<Route path="/download" element={<Download/>} />
+			</Routes>
+		</BrowserRouter>
 	);
 }
 

@@ -5,32 +5,35 @@ import dev from "../dev";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
+import Hero from "../Components/Hero";
+import Objetivos from "../Components/Objetivos";
+import Historia from "../Components/Historia";
+import Download from "../Components/Download";
+
 function Home() {
 
 
 	return (
-		<div className="vh-100 ">
-			<div className="container ">
-				<Header />
+		<div className="container vh-100">
+			<Header />
 
-				<div className="row">
-					video aqui
-				</div>
-
-				<div className="row">
-					História
-				</div>
-
-				<div className="row">
-					Objetivos
-				</div>
-
-				<div className="row">
-					Download
-				</div>
-
-				<Footer />
+			<div className="row align-items-center vh-100">
+				<Hero />
 			</div>
+
+			<div className="row align-items-center vh-100" id="historia">
+				<Historia />
+			</div>
+
+			<div className="row align-items-center vh-100 text-center" id="objetivos">
+				<Objetivos />
+			</div>
+
+			<div className="row align-items-center text-center" id="download">
+				<Download />
+			</div>
+
+			{/* <Footer /> */}
 		</div>
 	);
 }

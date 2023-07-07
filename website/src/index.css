@@ -1,0 +1,43 @@
+:root {
+    --bs-body-color: #fff;
+}
+
+body {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity))!important
+}
+
+.navbar-dark, .navbar[data-bs-theme=dark] {
+    --bs-navbar-color: rgba(255, 255, 255, 0.75);
+    --bs-navbar-hover-color: rgba(255, 255, 255, 1);
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.card,
+.card-img-overlay,
+.card-img {
+    border-radius: var(--bs-border-radius-xl)!important;
+}
+
+.card-title,
+.card-body {
+    color: var(--bs-white);
+}
+
+.card img,
+.card-body img {
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+
+.card-img-overlay {
+    top: unset;
+}
+
+.w-fit-content {
+    width: fit-content;
+}

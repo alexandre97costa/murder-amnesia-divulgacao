@@ -10,11 +10,11 @@ function Play() {
 
 
 	return (
-		<div className="vh-100 ">
-			<div className="container ">
+		<div className="vh-100">
+			<div className="container">
 				<Header />
 
-				<div className="row text-bg-light ">
+				<div className="row text-bg-light">
 					a<br/>
 				</div>
 

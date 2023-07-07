@@ -10,37 +10,39 @@ function Footer() {
 
     return (
         <>
-            <footer className="navbar navbar-expand-lg  w-100 text-light bg-dark py-0 lh-1" data-bs-theme="dark">
-                <div className="container">
+            <footer className="navbar navbar-expand-lg  w-100 text-light bg-dark py-0 lh-1 pt-2 pb-5 mt-4" data-bs-theme="dark">
+                <div className="container px-0 justify-content-between align-items-center gap-4">
+
+                    <Link className="navbar-brand fw-bold fs-4" to="/">
+                        <span className="text-danger">M</span>
+                        <span>urder Amnesia</span>
+                    </Link>
 
                     <nav className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav navbar-nav-scroll me-auto align-items-center gap-4" style={{ "--ar-scroll-height": "520px;" }}>
                             <li className="nav-item ">
-                                <Link className="nav-link active" to="/" >
-                                    Um link
-                                </Link>
+                                <a className="nav-link" href="#historia" >
+                                    História
+                                </a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/">
-                                    Outro link
-                                </Link>
+                                <a className="nav-link" href="#objetivos">
+                                    Objetivos
+                                </a>
                             </li>
                         </ul>
-
-                        <div className="d-sm-none p-3 mt-n3">
-                            <Link className="btn btn-primary w-100  mb-1" to="https://themes.getbootstrap.com/product/around-multipurpose-template-ui-kit/" target="_blank" rel="noopener">
-                                <i className="ai-cart fs-xl me-2 ms-n1"></i>Buy now
-                            </Link>
-                        </div>
                     </nav>
+
+                    <a
+                        className="btn btn-danger w-100 fw-semibold w-fit-content d-flex align-items-center gap-2"
+                        href="#download"
+                    >
+                        Download
+                        <i class="bi bi-download" />
+                    </a>
 
                 </div>
             </footer>
-
-            {/* Spacer */}
-            <div className="py-5">
-
-            </div>
         </>
     )
 

@@ -14,7 +14,7 @@ function Home() {
 
 
 	return (
-		<div className="container vh-100">
+		<div className="container">
 			<Header />
 
 			<div className="row align-items-center vh-100">
@@ -33,7 +33,7 @@ function Home() {
 				<Download />
 			</div>
 
-			{/* <Footer /> */}
+			<Footer />	
 		</div>
 	);
 }

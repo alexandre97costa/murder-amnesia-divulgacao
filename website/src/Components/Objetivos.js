@@ -12,7 +12,7 @@ export default function Objetivos() {
                     </div>
                 </div>
 
-                <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div className="row row-cols-1 row-cols-md-2 g-4">
 
                     <CardImage image="https://cdn.akamai.steamstatic.com/steam/apps/1301720/ss_a3fab09c0e28d808882cded14d3f1d39dd7380d2.1920x1080.jpg?t=1666991317" alt="Escapa" title="Escapa" />
 

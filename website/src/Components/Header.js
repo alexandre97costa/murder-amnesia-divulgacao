@@ -34,10 +34,11 @@ function Header() {
                                 </li>
                                 <li className="nav-item">
                                     <a
-                                        className="btn btn-danger w-100 fw-semibold"
+                                        className="btn btn-danger w-100 fw-semibold w-fit-content d-flex align-items-center gap-2"
                                         href="#download"
                                     >
                                         Download
+                                        <i class="bi bi-download" />
                                     </a>
                                 </li>
                                 <li className="nav-item ">

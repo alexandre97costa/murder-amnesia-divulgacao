@@ -2,13 +2,9 @@ import React, { useEffect } from "react";
 import dev from "../dev";
 import { Link } from 'react-router-dom';
 import Logo from "../Images/game-logo.png";
+import LogoDI from '../Images/logo_DI-branco.svg'
 
 function Header() {
-
-    useEffect(() => {
-
-    }, [])
-
     return (
         <>
             <header className="navbar navbar-expand-lg fixed-top text-light py-0 lh-1 bg-dark" data-bs-theme="dark">
@@ -16,8 +12,7 @@ function Header() {
                     <div className="w-100 d-flex justify-content-between align-items-center gap-4">
 
                         <Link className="navbar-brand fw-bold fs-4" to="/">
-                            <span className="text-danger">M</span>
-                            <span>urder Amnesia</span>
+                            <img src="https://media.discordapp.net/attachments/1087336886172926073/1104362724093350019/murderAmnesia-04.png?width=1440&height=596" className="img-fluid w-25 img-logo" />
                         </Link>
 
                         <nav className="collapse navbar-collapse flex-grow-0" id="navbarNav">
@@ -33,12 +28,23 @@ function Header() {
                                     </a>
                                 </li>
                                 <li className="nav-item">
+                                    <a className="nav-link" href="#trailer">
+                                        Trailer
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="btn btn-outline-danger w-100 fw-semibold w-fit-content d-flex align-items-center gap-2" to='/play'>
+                                        Play
+                                        <i className="bi bi-play-fill" />
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
                                     <a
                                         className="btn btn-danger w-100 fw-semibold w-fit-content d-flex align-items-center gap-2"
-                                        href="#download"
+                                        href="#download" download={LogoDI}
                                     >
                                         Download
-                                        <i class="bi bi-download" />
+                                        <i className="bi bi-download" />
                                     </a>
                                 </li>
                                 <li className="nav-item ">

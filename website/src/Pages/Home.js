@@ -9,6 +9,7 @@ import Hero from "../Components/Hero";
 import Objetivos from "../Components/Objetivos";
 import Historia from "../Components/Historia";
 import Download from "../Components/Download";
+import Trailer from "../Components/Trailer";
 
 function Home() {
 
@@ -17,7 +18,7 @@ function Home() {
 		<div className="container">
 			<Header />
 
-			<div className="row align-items-center vh-100">
+			<div className="row align-items-center vh-100 bg-image">
 				<Hero />
 			</div>
 
@@ -25,11 +26,15 @@ function Home() {
 				<Historia />
 			</div>
 
-			<div className="row align-items-center vh-100 text-center" id="objetivos">
+			<div className="row align-items-center text-center" id="objetivos">
 				<Objetivos />
 			</div>
 
-			<div className="row align-items-center text-center" id="download">
+			<div className="row align-items-center mt-5 text-center" id="trailer">
+				<Trailer />
+			</div>
+
+			<div className="row align-items-center text-center mt-5" id="download">
 				<Download />
 			</div>
 

@@ -14,9 +14,13 @@ export default function Objetivos() {
 
                 <div className="row row-cols-1 row-cols-md-2 g-4">
 
-                    <CardImage image="https://cdn.akamai.steamstatic.com/steam/apps/1301720/ss_a3fab09c0e28d808882cded14d3f1d39dd7380d2.1920x1080.jpg?t=1666991317" alt="Escapa" title="Escapa" />
+                    <CardImage image="https://cdn.discordapp.com/attachments/1084919872267497486/1127169102679646228/jump.png" alt="Jump" title="Jump" />
 
-                    <CardImage image="https://newkidsgames.org/cdn/games/action/jump_to_sky_3d_parcour.jpg" alt="Salta" title="Salta" />
+                    <CardImage image="https://media.discordapp.net/attachments/1084919872267497486/1127169103099088936/wallJump.png" alt="Wall Jump" title="Wall Jump" />
+
+                    <CardImage image="https://media.discordapp.net/attachments/1084919872267497486/1127169137060356096/crouch.png" alt="Crouch" title="Crouch" />
+
+                    <CardImage image="https://media.discordapp.net/attachments/1084919872267497486/1127169137425256559/Slide.png" alt="Slide" title="Slide" />
 
                 </div>
             </div>

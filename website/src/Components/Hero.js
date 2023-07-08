@@ -1,11 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import LogoDI from '../Images/logo_DI-branco.svg'
 
 export default function Hero() {
     return (
         <>
-            <div className='col-8'>
+            <div className='col-6'>
                 <div className='fs-5 fw-light text-danger'>
-                    Explora o mundo
+                    Explora o edifício
                 </div>
                 <div className='fs-1 fw-bold text-uppercase'>
                     Descobre
@@ -14,18 +16,22 @@ export default function Hero() {
                     quem realmente és
                 </div>
 
-                <div className='mt-3'>
+                <div className='mt-3 d-flex gap-3'>
+                    <Link className="btn btn-outline-danger w-100 fw-semibold w-fit-content d-flex align-items-center gap-2" to='/play'>
+                        Play
+                        <i className="bi bi-play-fill" />
+                    </Link>
                     <a
                         className="btn btn-danger w-100 fw-semibold w-fit-content d-flex align-items-center gap-2"
-                        href="#download"
+                        href="#download" download={LogoDI}
                     >
                         Download
-                        <i class="bi bi-download" />
+                        <i className="bi bi-download" />
                     </a>
                 </div>
             </div>
-            <div className='col-4'>
-                Imagem Hero
+            <div className='col-6'>
+                <img src='https://cdn.discordapp.com/attachments/1084919872267497486/1127175282583949332/IMGheroi.png' className='img-hero' />
             </div>
 
             <div className='col-12 text-center'>

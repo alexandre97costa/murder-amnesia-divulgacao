@@ -4,7 +4,7 @@ export default function Historia() {
     return (
         <>
             <div className='col-5'>
-                Imagem da personagem
+                <img src='https://cdn.discordapp.com/attachments/1084919872267497486/1127176555265802320/personagemF.png' className='img-player'/>
             </div>
             <div className='col-7'>
                 <div className='fs-5 fw-light text-danger'>
@@ -16,7 +16,8 @@ export default function Historia() {
                 </div>
 
                 <div className='mt-4'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus posuere odio ac volutpat pellentesque. Quisque rutrum auctor malesuada. Fusce fermentum ante purus, ut scelerisque ex elementum tincidunt. Aliquam pharetra tellus.
+                    A Experiência 10834 acorda num laboratório sem ter noção de quem é ou de onde é que está. Completa os diversos desafios que este misterioso edifício vai apresentar e reúne a informação necessária para perceberes quem realmente és.
+                    No final da história, o jogador é confrontado com uma decisão que vai traçar a sua vida e personalidade: será que vai seguir o bem ou o mal?
                 </div>
             </div>
         </>

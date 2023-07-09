@@ -4,6 +4,7 @@ import dev from "../dev";
 
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
+// import Game from '../../teste/index.html'
 
 
 function Play() {
@@ -15,7 +16,7 @@ function Play() {
 				<Header />
 
 				<div className="row text-bg-light">
-					a<br/>
+					{/* <Game /> */}
 				</div>
 
 				<Footer />

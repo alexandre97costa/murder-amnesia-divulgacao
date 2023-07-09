@@ -17,10 +17,10 @@ export default function Hero() {
                 </div>
 
                 <div className='mt-3 d-flex gap-3'>
-                    <Link className="btn btn-outline-danger w-100 fw-semibold w-fit-content d-flex align-items-center gap-2" to='/play'>
+                    <a className="btn btn-outline-danger w-100 fw-semibold w-fit-content d-flex align-items-center gap-2" href='http://193.137.7.33/~estgv19230/DJ/teste/' target='_blank'>
                         Play
                         <i className="bi bi-play-fill" />
-                    </Link>
+                    </a>
                     <a
                         className="btn btn-danger w-100 fw-semibold w-fit-content d-flex align-items-center gap-2"
                         href="#download" download={LogoDI}

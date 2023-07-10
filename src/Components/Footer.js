@@ -43,7 +43,7 @@ function Footer() {
 
                         <a
                             className="btn btn-danger w-100 fw-semibold w-fit-content d-flex align-items-center gap-2"
-                            href="#download" download={LogoDI}
+                            href={'http://193.137.7.33/~estgv19230/DJ/jogo'} download="jogo.zip"
                         >
                             Download
                             <i className="bi bi-download" />
